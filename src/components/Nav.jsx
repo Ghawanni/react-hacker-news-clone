@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { AppBar, Tab, Tabs } from "@material-ui/core";
 import { Link, Route, Switch } from "react-router-dom";
-import BestStories from "./BestStories";
-import NewStories from "./NewStories";
-import TopStories from "./TopStories";
+import BestStories from "./BestStories/BestStories";
+import NewStories from "./NewStories/NewStories";
+import TopStories from "./TopStories/TopStories";
 import Default from "./Default";
 
 export class Nav extends Component {
